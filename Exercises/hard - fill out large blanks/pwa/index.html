@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Use the steps from the demo to turn this page into a PWA</p>
+<ol>
+    <li>Ensure your site is mobile-optimized; test with Chrome's Lighthouse tool.</li>
+    <li>Register a service worker: In your main JS, check for service worker support and register <code>serviceworker.js</code>.</li>
+    <li>Add Workbox to your project: In <code>serviceworker.js</code>, import Workbox from a CDN using `importScripts`.</li>
+    <li>Implement caching: Use Workbox's routing module to register routes and define caching strategies.</li>
+    <li>Add the icons with: <code>npx pwa-asset-generator icon.png icons</code></li>
+    <li>Create a <code>manifest.json</code> file: Include app details, icons, and ensure it's linked in your HTML.</li>
+    <li>Test your PWA: Re-run Lighthouse in Chrome DevTools to ensure PWA criteria are met.</li>
+</ol>
+
+</body>
+</html>

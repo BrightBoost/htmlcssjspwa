@@ -1,0 +1,51 @@
+html{
+	/*insert a background color here*/
+}
+
+body {
+	/*add padding, a font and a background color*/
+
+}
+
+h1 {
+	/*layout for header*/
+}
+h2 {
+	/* */
+}
+#name { /*add a  layout for the element in HTML that has name as id property*/
+}
+
+#email{
+	
+}
+div{
+	
+}
+
+#footer{
+	
+}
+#footer p{ /*layout for paragraph with id footer*/
+	
+}
+h1:hover
+{
+ /*different layout when the mouse is on the header*/
+ }
+h2:hover
+{
+	background-color:#FFC001;
+}
+div{
+	border-radius:3px dotted yellow;
+}
+img{
+	border-radius:3px dotted yellow;
+}
+li{
+
+}
+table{
+
+}
