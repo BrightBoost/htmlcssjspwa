@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="manifest" href="manifest.json">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Mijn eerste web pagina</h1>
-    <p>Dit is wat tekst.</p>
-    <ul>
-        <li>Blabla</li>
-        <li>Blabla</li>
-        <li>Blabla</li>
-        <li>Blabla</li>
-        <li>Blabla</li>
-    </ul>
+    <div class="container">
+        <h1>Mijn eerste web pagina</h1>
+        <p>Dit is wat tekst.</p>
+        <ul>
+            <li id="bla" class="special">Blabla</li>
+            <li class="special">Blabla</li>
+            <li>Blabla</li>
+            <li>Blabla</li>
+            <li>Blabla</li>
+        </ul>
+    </div>
+    <label for="name">Naam</label><input id="name" type="text">
+    <button onclick="sayBlabla('hoi')">Hoi!</button>
+    <button onclick="sayBlabla('bla')">Bla!</button>
+    <button onclick="sayBlabla()">Hoi naam!</button>
+    <script src="registerSW.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
