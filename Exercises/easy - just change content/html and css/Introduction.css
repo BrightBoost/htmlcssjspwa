@@ -74,11 +74,11 @@ h2:hover {
 }
 
 div {
-	border-radius: 3px dotted yellow;
+	border: 3px dotted yellow;
 }
 
 img {
-	border-radius: 3px dotted yellow;
+	border: 3px dotted yellow;
 }
 
 li {}
