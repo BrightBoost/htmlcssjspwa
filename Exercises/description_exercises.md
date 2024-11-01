@@ -16,8 +16,7 @@
 3. **Header Section:** 
    - Use the `<header>` tag.
    - Include a main heading (`<h1>`) with the text "Welcome to my first page".
-   - Add a paragraph with your name.
-   - Add a paragraph (`<p>`) hinting at contact details.
+   - Add a paragraph (`<p>`) hinting at contact details. Give it an id name.
    - Provide two email links (`<a>`) with different email addresses. Use the `mailto:` attribute. Each email address should be wrapped in a `<p>` tag with an `id` of "email".
 
 4. **About Section:** 
