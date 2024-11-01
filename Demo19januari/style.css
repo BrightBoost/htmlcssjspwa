@@ -1,0 +1,25 @@
+body {
+    background-color: #ddd;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+    color: green;
+}
+
+.special {
+    color: red;
+}
+
+#bla {
+    color: blue;
+}
+
+li#bla {
+    color: rgb(242, 255, 0);
+}
+
+.container {
+    padding: 2%;
+}

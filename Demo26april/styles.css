@@ -1,0 +1,28 @@
+/* selector html tag - 1 punt */
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: brown;
+}
+
+/* selector class - 10 punt*/
+.subtext.maintext {
+    background-color: blue;
+}
+
+.maintext {
+    background-color: blueviolet;
+}
+
+.laatste {
+    background-color: yellow;
+}
+
+/* selector id */
+#laatsteDiv {
+    background-color: pink;
+    font-size: large;
+}
