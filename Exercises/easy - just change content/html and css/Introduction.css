@@ -1,10 +1,10 @@
-html{
-	background-color:#FFC001
+html {
+	background-color: #FFC001
 }
 
 body {
 	padding: 20px;
-	background-color:#FFF;
+	background-color: #FFF;
 	font-family: Verdana;
 
 }
@@ -17,6 +17,7 @@ h1 {
 	padding-bottom: 25px;
 	color: #000;
 }
+
 h2 {
 	font-family: Verdana;
 	font-weight: bold;
@@ -25,6 +26,7 @@ h2 {
 	padding-bottom: 25px;
 	color: #000;
 }
+
 #name {
 	position: relative;
 	top: -10px;
@@ -32,51 +34,52 @@ h2 {
 	border-top-right-radius: 15px;
 }
 
-#email{
-	float:right;
-	margin-right:5px;
-	padding-top:5px;
-	font-size:16px;
+#email {
+	float: right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color:#ffffff;
+	color: #ffffff;
 }
-div{
+
+div {
 	padding: 20px;
-	border-radius:5px;
+	border-radius: 5px;
 }
 
-#footer{
-	position:relative;
+#footer {
+	position: relative;
 	height: 50px;
-	float:right;
-	background-color:#000000
-	clear:both;
+	float: right;
+	background-color: #000000 clear:both;
 	font-family: Verdana, sans-serif;
-	font-size:14px;
-	text-align:center;
-	color:#ffffff
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff
 }
-#footer p{
-	position:relative;
-	padding-top:15px;
-}
-h1:hover
-{
-	background-color:#FFC001;
-}
-h2:hover
-{
-	background-color:#FFC001;
-}
-div{
-	border-radius:3px dotted yellow;
-}
-img{
-	border-radius:3px dotted yellow;
-}
-li{
 
+#footer p {
+	position: relative;
+	padding-top: 15px;
 }
-table{
 
+h1:hover {
+	background-color: #FFC001;
 }
+
+h2:hover {
+	background-color: #FFC001;
+}
+
+div {
+	border-radius: 3px dotted yellow;
+}
+
+img {
+	border-radius: 3px dotted yellow;
+}
+
+li {}
+
+table {}

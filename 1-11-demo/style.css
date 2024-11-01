@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+
+body {
+    background-color: aqua;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    background-color: chocolate;
+}
+
+.standard {
+    background-color: blueviolet;
+    color: white;
+}
+
+.standard.special {
+    background-color: green;
+    color: white;
+}
+
+.special {
+    background-color: yellow;
+    color: black;
+}
+
+#paragraaf {
+    color: yellow;
+}
+
